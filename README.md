@@ -16,6 +16,16 @@ require("jojolion").setup()
 vim.cmd("colorscheme jojolion")
 ```
 
+### Lualine
+
+```lua
+require("lualine").setup({
+    options = {
+        theme = require("jojolion.lualine")
+    }
+})
+```
+
 The theme is pretty primitive so if you have any suggestions or changes let me know or fork the project do you what you want idc its a free world.
 
 Also I have the snippet I use for the theme on wsl in extras, feel free to adapt the colours if you can I'm too lazy to make it compatible with everything
